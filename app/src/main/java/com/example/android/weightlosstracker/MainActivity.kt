@@ -2,6 +2,7 @@ package com.example.android.weightlosstracker
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.android.weightlosstracker.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
