@@ -8,6 +8,6 @@ import java.util.*
 data class Weight(
     @PrimaryKey
     var id: Long,
-    var weight: Float,
+    var weight: Double,
     var date: Long
 )
