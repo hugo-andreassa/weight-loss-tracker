@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Weight Loss Tracker</string>
+    <string name="fragment_weight_tracker">Weight Loss Tracker</string>
+
 </resources>

@@ -2,8 +2,9 @@ package com.example.android.weightlosstracker.db
 
 import android.content.Context
 import androidx.room.*
+import com.example.android.weightlosstracker.models.Weight
 
-@Database(entities = [], version = 1, exportSchema = false)
+@Database(entities = [Weight::class], version = 1, exportSchema = false)
 abstract class AppDatabase() : RoomDatabase() {
 
 }

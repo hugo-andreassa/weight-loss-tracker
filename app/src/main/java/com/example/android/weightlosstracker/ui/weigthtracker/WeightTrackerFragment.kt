@@ -7,19 +7,21 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.android.weightlosstracker.R
+import com.example.android.weightlosstracker.databinding.WeightTrackerFragmentBinding
 
 class WeightTrackerFragment : Fragment() {
 
     private lateinit var viewModel: WeightTrackerViewModel
+    private lateinit var binding: WeightTrackerFragmentBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        binding = WeightTrackerFragmentBinding.inflate(inflater)
         viewModel = ViewModelProvider(this).get(WeightTrackerViewModel::class.java)
 
-        TODO("Add binding")
 
-        return inflater.inflate(R.layout.weight_tracker_fragment, container, false)
+        return binding.root
     }
 }
