@@ -11,8 +11,8 @@ import com.example.android.weightlosstracker.databinding.WeightTrackerFragmentBi
 
 class WeightTrackerFragment : Fragment() {
 
-    private lateinit var viewModel: WeightTrackerViewModel
     private lateinit var binding: WeightTrackerFragmentBinding
+    private lateinit var viewModel: WeightTrackerViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
